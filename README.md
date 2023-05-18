@@ -28,5 +28,8 @@ La carpeta Data contiene 3 subcarpetas: 1. Bronce, 2. Plata, 3. Oro:
 
 La carpeta Jobs contiene 4 notebooks enumerados del 1 hasta el 4. A continuación se detalla el uso de cada uno:
 
-  Notebook 1. Se carga el df 'raw_data', se realiza Limpieza, Normalización, Reducción de vocabulario, Tokenización, Lematización, y                   Analizis de frecuencias. Se exportan los df contenidos en la subcarpeta Plata de Data.
-  Notebook 2. 
+  Notebook 1. Se carga el df 'raw_data'. Se realiza Limpieza, Normalización, Reducción de vocabulario, Tokenización, Lematización, y                   Analizis de frecuencias. Se exportan los df contenidos en la subcarpeta Plata de Data.
+  
+  Notebook 2. Se carga el df 'list_tokens'. Se realiza el modelo de detección de tópicos con LDA y NMF y se exportan los df                             pertenecientes a la subcarpeta Oro de Data.
+  
+  Notebook 3. 
