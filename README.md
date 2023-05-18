@@ -1,10 +1,13 @@
 # Trabajo_Mineria_2023-1
 ## Flujo de trabajo basado en NLP para la extracción de tópicos y clasificación de correos electrónicos generados por usuarios. Caso de estudio aplicado a una fintech
 Descripción
-El propósito de este proyecto es explorar técnicas de NLP para procesar y analizar grandes volúmenes de texto. Las funcionalidades principales del proyecto incluyen:
+El propósito de este proyecto es explorar técnicas de NLP para procesar y analizar el contenido de correos electronicos. Las funcionalidades principales del proyecto incluyen:
 
-Limpieza de datos: Se proporcionan modelos y técnicas para preprocesar y limpiar los datos textuales, eliminando ruido, caracteres especiales, stopwords, etc.
-
-Detección de tópicos: Se implementan algoritmos de detección de tópicos para identificar los temas principales presentes en los textos.
-
-Clasificación supervisada: Se ofrecen modelos de clasificación supervisada para asignar etiquetas o categorías a los textos, utilizando técnicas de aprendizaje automático.
+Limpieza
+Normalización
+Reducción de vocabulario
+Tokenización
+Lematización
+Analizis de frecuencias
+Modelado de tópicos
+Modelado de clasificación
