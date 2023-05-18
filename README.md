@@ -28,8 +28,10 @@ La carpeta Data contiene 3 subcarpetas: 1. Bronce, 2. Plata, 3. Oro:
 
 La carpeta Jobs contiene 4 notebooks enumerados del 1 hasta el 4. A continuación se detalla el uso de cada uno:
 
-  Notebook 1. Se carga el df 'raw_data'. Se realiza Limpieza, Normalización, Reducción de vocabulario, Tokenización, Lematización, y                   Analizis de frecuencias. Se exportan los df contenidos en la subcarpeta Plata de Data.
+  Notebook 1. Se carga el df 'raw_data' de Bronce. Se realiza Limpieza, Normalización, Reducción de vocabulario, Tokenización,                         Lematización, y Analizis de frecuencias. Se exportan los df contenidos en la subcarpeta Plata de Data.
   
-  Notebook 2. Se carga el df 'list_tokens'. Se realiza el modelo de detección de tópicos con LDA y NMF y se exportan los df                             pertenecientes a la subcarpeta Oro de Data.
+  Notebook 2. Se carga el df 'list_tokens' de Plata. Se realiza el modelo de detección de tópicos con LDA y NMF y se exportan los df                   pertenecientes a la subcarpeta Oro de Data.
   
-  Notebook 3. 
+  Notebook 3. Se carga el df 'df_etiquetado' de Oro. Se entrenan los modelos de clasificación supervisados y se escoge el mejor modelo.
+  
+  Notebook 4. Se carga el df 'df_etiquetado' de Oro como dataframe PySpark y se entrena el modelo ganador del notebook anterior en la                   libreria Mlib de PySpark.
